@@ -10,5 +10,7 @@
 
 * data frame f reads features.txt to extract the column name of the combined data frame
 * then fs filters out online the necessary variable name corresponding to mean and sd for each measurement
-
+* after transforming the variable names to character, subject and activity_label is added to put as the column names of c2
+* vector a is used to transform activiy_label to descriptive activity names
+* the final tidy data set itd was created to by calling ddply to comupte the mean of each variable for each activity and each subject 
 
